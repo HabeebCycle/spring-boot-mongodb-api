@@ -1,7 +1,8 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://habeebcycle:secret101@cluster0-lzygs.mongodb.net/test?retryWrites=true&w=majority
+      uri: mongodb+srv://habeebcycle:secret101@cluster0-lzygs.mongodb.net/spring_mongo?retryWrites=true&w=majority
+      database: spring_mongo
 
 logging:
   level:
